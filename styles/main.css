@@ -147,7 +147,7 @@ img {
 
 /* who */
 .dark-blue-bg {
-    background: url("/img/Group\ 25@2x.png") no-repeat center center;
+    background: url("../img/Group\ 25@2x.png") no-repeat center center;
     background-size: cover;
 }
 
@@ -207,4 +207,9 @@ img {
 /* social media */
 .social-media-title {
     padding: 5rem 0;
+}
+
+/* testimonilas */
+.testimonials {
+    margin: 5rem 0;
 }

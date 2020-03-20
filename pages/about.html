@@ -3,10 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" type="text/css" href="/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="/slick/slick-theme.css"/>
     <title>About</title>
 </head>
 <body>
-    whoops nothing here yet...
-    <a href="../index.html">go back</a>
+    <div class="container">
+        <nav class="nav">
+            <div class="logo"><a href="../index.html"><img src="/img/logo.png" alt=""></a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/pages/about.html">About Us</a></li>
+                    <li><a href="/pages/matches.html">Matches</a></li>
+                    <li><a href="/pages/timetable.html">Timetable</a></li>
+                    <li><a href="/pages/coaches.html">Coaches</a></li>
+                    <li><a href="/pages/contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="hero my-3">
+            <div class="hero-title">
+                <h2 class="title-2">ABOUT US</h2>
+                <p>Westside is a Volleyball Club which caters to volleyball players of ALL ages who want to train and play together. We are always looking out for each other, with everyone helping out how they can. </p>
+                <p>We are about FAMILY.</p>
+            </div>
+            <div class="hero-img"><img src="/img/temp-img.png" alt=""></div>
+        </div>
+        <div class="our-purpose">
+            <h2>OUR PURPOSE</h2>
+            <p>Westside is here to provide a home for all volleyball players.</p>
+            <p>Whether you want to learn, play or compete, Westside can cater to you.</p>
+            <br>
+            <div class="testimonials">
+                <div><img src="../img/temp-img.png" alt=""></div>
+                <div><img src="../img/Group 25.png" alt=""></div>
+                <div><img src="../img/temp-img.png" alt=""></div>
+                <div><img src="../img/Group 25.png" alt=""></div>
+                <div><img src="../img/temp-img.png" alt=""></div>
+                <div><img src="../img/Group 25.png" alt=""></div>
+            </div>
+        </div>
+        <div class="some-history">
+            <h2>SOME HISTORY</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui minus, maiores facilis consequuntur odit, eaque officiis commodi debitis veniam nobis ratione temporibus neque, reprehenderit quibusdam asperiores in illum facere. Sapiente necessitatibus dolores incidunt harum id, nihil ex voluptates doloribus nostrum excepturi, provident eveniet quis nesciunt est eaque aliquam. Atque illum itaque quibusdam labore sapiente reiciendis dolores aut culpa, et ad explicabo commodi temporibus a consectetur suscipit neque libero rem quae sed placeat? Optio animi deserunt quos reprehenderit quod minus velit ipsam consequuntur qui. Alias sapiente pariatur expedita ipsam quaerat iure, inventore nostrum ab doloremque, facilis, perferendis placeat ullam libero consequatur facere.</p>
+        </div>
+        <div class="today">
+            <h2>WHERE WE ARE TODAY</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa temporibus deserunt distinctio tempora sit molestiae, exercitationem eligendi, molestias ducimus, nobis rerum maxime est aut. Quas odit cupiditate aut sit voluptatum doloribus reiciendis voluptate fugit earum iste recusandae neque tenetur, facere quae, officia repellendus. Ducimus, quidem! Accusantium, iusto itaque. Neque exercitationem iusto cum. Modi aspernatur, quibusdam veritatis ratione voluptatum maxime voluptates molestiae tenetur. Nulla vero ratione delectus beatae quo illo aliquam eaque, maiores magni nostrum nemo quibusdam ducimus. Modi, laborum totam. Id dolore numquam excepturi quaerat nihil. Quidem impedit quaerat eaque consectetur unde minus deleniti nam quae ut laudantium, dolore accusantium!</p>
+        </div>
+        <a href="../index.html">go back</a> 
+    </div>
+    
 </body>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="/slick/slick.min.js"></script>
+<script>
+    $('.testimonials').slick({
+    centerMode: true,
+    centerPadding: '60px',
+    slidesToShow: 3,
+    responsive: [
+        {
+        breakpoint: 768,
+        settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 3
+        }
+        },
+        {
+        breakpoint: 480,
+        settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 1
+        }
+        }
+    ]
+    });
+</script>
 </html>
