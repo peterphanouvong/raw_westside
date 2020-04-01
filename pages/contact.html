@@ -3,10 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <title>Contact</title>
 </head>
 <body>
-    whoops nothing here yet...
-    <a href="../index.html">go back</a>
+    <div class="container">
+        <nav class="nav">
+            <div class="logo"><a href="../index.html"><img src="../img/logo.png" alt=""></a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./about.html">About Us</a></li>
+                    <li><a href="./matches.html">Matches</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="hero my-3">
+            <div class="hero-title">
+                <h2 class="title-2">CONTACT 📞</h2>
+                <p>There best way to contact us would be through our <a class="link" href="https://www.facebook.com/westsidevolleyballclub">facebook page</a></p>
+                <p>Or you can chuck us an <a class="link" href="mailto:westsidevolley@gmail.com?Subject=Website%20Email">email!</a></p>
+            </div>
+            <div class="hero-img"><img src="../img/temp-img.png" alt=""></div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-left">Westside &copy;</div>
+        <div class="footer-middle">2020 Website</div>
+        <div class="footer-right">
+            <ul>
+                <li>123456789</li>
+                <li>westside email.com</li>
+            </ul>
+        </div>
+    </div>
 </body>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="../slick/slick.min.js"></script>
+<script>
+    $('.matches').slick({
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 1
+    });
+</script>
 </html>
